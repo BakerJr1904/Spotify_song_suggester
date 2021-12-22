@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Suggestion Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Spotify Song Suggester</h1>
+						
+								<div class="col-6 col-12-xsmall">
+                                    <header>
+                                        <h2>What's your favorite song ever?</h2>
+                                    </header>
+							  		<label for="state_changed_at_month">Give us a song name and artist to get you some recomendations.</label>
+
+									  <form action="/suggestions" method="post">
+										<input type="text" name="user_input_song" placeholder="Name , Artist">
+										<input type="submit" value="Search" href="#first">
+									  </form>
+                                      <strong><p>Follow the arrow to see your results.</p></strong>
+
+								</div>
+                                
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="static/images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>SUGGESTIONS</h2>
+						</header>
+						<div class="content">
+							<p><strong>{% block content %}
+                                <div id="user-info">
+                                    <p>{% for song in suggestions %}
+                                        {{ song.name, song.artists}}<br>
+                                        <a href={{song.uri}}>Spotify app</a><br>
+                                        <a href={{song.external_urls}}>Web Link</a></p>
+                                        
+                                    {% endfor %}
+                                </div>
+                                
+                                <!--<div id="user-tweets">
+                                  {% for tweet in tweets %}
+                                  <span class="stack">
+                                    {{ tweet.text }}
+                                  </span>-->
+                                  {% endfor %}
+                                </div>
+                                {% endblock %}</strong>.</p>
+							<span class="image main"><img src="static/images/pic02.jpg" alt="" /></span>
+						</div>
+					</section>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>

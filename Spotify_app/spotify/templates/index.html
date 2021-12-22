@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Spotify Song Suggester</h1>
+							<p>Help users find and visualize songs that fit their personal taste.</p>
+							<div class="col-6 col-12-xsmall">
+								<header>
+									<h2>What's your favorite song ever?</h2>
+								</header>
+								  <label for="state_changed_at_month">Give us a song name and artist to get you some recomendations.</label>
+
+									  <form action="/suggestions" method="post">
+										<input type="text" name="user_input_song" placeholder="Name , Artist">
+										<input type="submit" value="Search">
+									  </form>
+
+								</div>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="static/images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
+					
+					<section id="first">
+						<header>
+							<h2>How the Suggester Works?</h2>
+						</header>
+						<div class="content">
+							<p><strong>The Song Suggester App</strong> Takes a song's reference (name, artist) provided by the user, searches for that song's information on the Spotify database to use as starting point to gather a list of related songs. Gather a list of 30 related songs, collecting the top 10 tacks of the provided song artist, One track from 10 related artists based on Spotify users reproductions, and 10 songs based on the genre and artist of the user's song. After the described process all the audio features of each of the 30 tracks are compared with the user's song through an ML algorithm and reordered to provide the user with the top 5 songs that are the most closely related to his favorite one.</p>
+							<span class="image main"><img src="static/images/pic02.jpg" alt="" /></span>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>

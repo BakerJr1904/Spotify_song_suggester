@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+spacy = "*"
+spotipy = "*"
+pandas = "*"
+lyricsgenius = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+sklearn = "*"
+scikit-learn = "*"
+jinja2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
