@@ -13,12 +13,7 @@ Spotify users reproductions, and 10 songs based on the genre and artist of the u
 After the described process all the audio features of each of the 30 tracks are compared 
 with the user's song through an ML algorithm and reordered to provide the user with the top 5 
 songs that are the most closely related to his favorite one.
-
-Heroku API
-
-Deployed URL:
-
-Meet the Team
+### Meet the Team
 
 Mitch Hollberg DS-32 
 
