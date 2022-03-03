@@ -26,7 +26,7 @@ Zachary Quintana DS-32
 
 German Parra DS-33 
 
-Matt Grohnke DS-33 Github: 
+Matt Grohnke DS-33
 
 John A. Baker Jr. DS-33 Github: LinkedIn:
 
