@@ -23,7 +23,8 @@ German Parra DS-33
 
 Matt Grohnke DS-33
 
-John A. Baker Jr. DS-33 [Github:](https://github.com/BakerJr1904) [LinkedIn:](https://www.linkedin.com/in/john-a-baker-jr/) <baker.john20@yahoo.com.com>
+John A. Baker Jr. DS-33<br/>[Github:](https://github.com/BakerJr1904) [LinkedIn:](https://www.linkedin.com/in/john-a-baker-jr/)<br/> Email: <baker.john20@yahoo.com.com>
+Portfolio:
 
 The purpose of Build Week is to empower students to demonstrate mastery of your learning objectives. 
 The Build Weeks experience helps prepare students for the job market.
