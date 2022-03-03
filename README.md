@@ -27,7 +27,7 @@ John A. Baker Jr. DS-33<br/>
 [Github:](https://github.com/BakerJr1904)<br/>
 [LinkedIn:](https://www.linkedin.com/in/john-a-baker-jr/)<br/> 
 Email: <baker.john20@yahoo.com.com><br/>
-Portfolio:
+Portfolio:<https://johnabakerjr.link/>
 
 The purpose of Build Week is to empower students to demonstrate mastery of your learning objectives. 
 The Build Weeks experience helps prepare students for the job market.
