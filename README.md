@@ -20,13 +20,13 @@ Deployed URL:
 
 Meet the Team
 
-Mitch Hollberg DS-32 Github: LinkedIn:
+Mitch Hollberg DS-32 
 
-Zachary Quintana DS-32 Github: LinkedIn:
+Zachary Quintana DS-32 
 
-German Parra DS-33 Github: [LinkedIn:]
+German Parra DS-33 
 
-Matt Grohnke DS-33 Github: LinkedIn:
+Matt Grohnke DS-33 Github: 
 
 John A. Baker Jr. DS-33 Github: LinkedIn:
 
