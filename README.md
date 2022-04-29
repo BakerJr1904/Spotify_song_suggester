@@ -27,7 +27,7 @@ songs that are the most closely related to his favorite one.
 
 ### Meet the Team
 
-Mitch Hollberg DS-32 
+Mitch Hollberg DS-32<br/>
 
 Zachary Quintana DS-32 
 
