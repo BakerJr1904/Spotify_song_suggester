@@ -24,7 +24,6 @@ After the described process all the audio features of each of the 30 tracks are 
 with the user's song through an ML algorithm and reordered to provide the user with the top 5 
 
 songs that are the most closely related to his favorite one.
-
 ### Meet the Team
 
 Mitch Hollberg DS-32<br/>
