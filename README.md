@@ -31,7 +31,7 @@ Mitch Hollberg DS-32<br/>
 
 Zachary Quintana DS-32<br/>
 
-German Parra DS-33 
+German Parra DS-33<br/>
 
 Matt Grohnke DS-33
 
