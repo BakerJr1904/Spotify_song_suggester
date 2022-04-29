@@ -29,7 +29,7 @@ songs that are the most closely related to his favorite one.
 
 Mitch Hollberg DS-32<br/>
 
-Zachary Quintana DS-32 
+Zachary Quintana DS-32<br/>
 
 German Parra DS-33 
 
