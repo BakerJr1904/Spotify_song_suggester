@@ -10,6 +10,7 @@ to aspects of the deployed project beyond Data Science, smoothed out conflicts,
 and significantly contributed to explaining the project to non-DS people beyond the team.
 
 The Song Suggester App Takes a song's reference (name, artist) provided by the user, 
+
 searches for that song's information on the Spotify database to use as starting point 
 to gather a list of related songs. Gather a list of 30 related songs, collecting the 
 top 10 tacks of the provided song artist, One track from 10 related artists based on 
