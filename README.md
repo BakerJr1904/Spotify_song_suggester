@@ -1,5 +1,4 @@
 # Spotify Song Suggester
-
 Input a song and get related song suggestions<br/>
 This team went above and beyond to shape and support the architecture of the project, 
 they also helped deployment of the related pipelines. The team also contributed meaningfully 
