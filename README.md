@@ -14,7 +14,6 @@ The Song Suggester App Takes a song's reference (name, artist) provided by the u
 searches for that song's information on the Spotify database to use as starting point 
 
 to gather a list of related songs. Gather a list of 30 related songs, collecting the 
-
 top 10 tacks of the provided song artist, One track from 10 related artists based on 
 Spotify users reproductions, and 10 songs based on the genre and artist of the user's song. 
 After the described process all the audio features of each of the 30 tracks are compared 
